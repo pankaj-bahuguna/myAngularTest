@@ -1,0 +1,3 @@
+<div class="mt-1"><a [routerLink]="['/product-details', element.id]">{{element.id}}</a></div>
+<div class="mt-1">{{element.name}}</div>
+<button class="btn btn-primary mt-2" (click)="RemoveToCart(element.id)">Remove</button>
